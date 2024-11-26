@@ -1,0 +1,4 @@
+colored==2.2.4
+pygame==2.5.2
+screeninfo==0.8.1
+requests==2.31.0
