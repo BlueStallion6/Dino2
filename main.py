@@ -1,0 +1,1 @@
+print("Buna ziua <3")
