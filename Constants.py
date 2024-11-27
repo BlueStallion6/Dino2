@@ -3,6 +3,14 @@ import json
 import requests
 pygame.init()
 
+
+
+display_info = pygame.display.Info()
+screen_width = display_info.current_w
+screen_height = display_info.current_h
+
+
+
 try:
     open("config.json")
 except FileNotFoundError:
@@ -20,3 +28,4 @@ with open("config.json", "r") as file:
 
 DEBUG_MODE = CONFIG["settings"]["debug_mode"]
 TPS = CONFIG["settings"]["tps"]
+W_PERC = CONFIG["settings"]["window_perc"] / 100
