@@ -3,6 +3,7 @@ from colored import Fore, Style
 class Colors:
 
     WHITE = (255, 255, 255)
+    ALMOST_WHITE = (235, 235, 235)
     BLACK = (0, 0, 0)
     RED = (210, 120, 120)
     GREEN = (0, 255, 0)
